@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja" data-lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIYABI SHIMURA — Photography Portfolio</title>
+<meta name="description" content="A quiet photography portfolio.">
+
+<!-- Googleフォント: 見出し用セリフ体 + 本文用サンセリフ体 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== ヘッダー ===== -->
+<header class="site-header">
+  <a href="#top" class="logo">MIYABI SHIMURA</a>
+
+  <nav class="main-nav" id="main-nav">
+    <a href="#works" data-en="Works" data-ja="作品">作品</a>
+    <a href="#about" data-en="About" data-ja="プロフィール">プロフィール</a>
+    <a href="#contact" data-en="Contact" data-ja="連絡先">連絡先</a>
+  </nav>
+
+  <div class="header-right">
+    <div class="lang-switch" id="lang-switch">
+      <button type="button" data-lang-btn="ja" class="is-active">JA</button>
+      <span>/</span>
+      <button type="button" data-lang-btn="en">EN</button>
+    </div>
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== ヒーロー ===== -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <img src="https://picsum.photos/id/1015/1600/2000" alt="Featured work" loading="eager">
+  </div>
+  <div class="hero-caption">
+    <p class="eyebrow" data-en="Selected Works" data-ja="セレクテッド ワークス">セレクテッド ワークス</p>
+    <h1 data-en="Quiet Moments," data-ja="静かな瞬間、">静かな瞬間、</h1>
+    <h1 class="hero-line2" data-en="Held in Light." data-ja="光に留めて。">光に留めて。</h1>
+  </div>
+</section>
+
+<!-- ===== 作品ギャラリー ===== -->
+<section class="gallery" id="works">
+  <div class="section-head">
+    <span class="section-num">01</span>
+    <h2 data-en="Works" data-ja="作品">作品</h2>
+  </div>
+
+  <div class="grid">
+
+    <figure class="work">
+      <div class="work-media">
+        <img src="https://picsum.photos/id/1018/1200/1500" alt="Mountain river landscape" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="work-no">No. 01</span>
+        <span class="work-title" data-en="Between Ridges" data-ja="峰のあわい">峰のあわい</span>
+        <span class="work-meta" data-en="2024 — Landscape" data-ja="2024年 — 風景">2024年 — 風景</span>
+      </figcaption>
+    </figure>
+
+    <figure class="work">
+      <div class="work-media">
+        <img src="https://picsum.photos/id/1039/1200/1500" alt="Winter forest" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="work-no">No. 02</span>
+        <span class="work-title" data-en="Winter Hush" data-ja="冬の静寂">冬の静寂</span>
+        <span class="work-meta" data-en="2024 — Landscape" data-ja="2024年 — 風景">2024年 — 風景</span>
+      </figcaption>
+    </figure>
+
+    <figure class="work">
+      <div class="work-media">
+        <img src="https://picsum.photos/id/1025/1200/1500" alt="Portrait study" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="work-no">No. 03</span>
+        <span class="work-title" data-en="Stillness" data-ja="静止">静止</span>
+        <span class="work-meta" data-en="2023 — Portrait" data-ja="2023年 — ポートレート">2023年 — ポートレート</span>
+      </figcaption>
+    </figure>
+
+    <figure class="work">
+      <div class="work-media">
+        <img src="https://picsum.photos/id/1043/1200/1500" alt="Coastal cliffs" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="work-no">No. 04</span>
+        <span class="work-title" data-en="Edge of Land" data-ja="陸の際">陸の際</span>
+        <span class="work-meta" data-en="2023 — Landscape" data-ja="2023年 — 風景">2023年 — 風景</span>
+      </figcaption>
+    </figure>
+
+    <figure class="work">
+      <div class="work-media">
+        <img src="https://picsum.photos/id/1074/1200/1500" alt="Field of flowers" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="work-no">No. 05</span>
+        <span class="work-title" data-en="Field Notes" data-ja="野の記録">野の記録</span>
+        <span class="work-meta" data-en="2022 — Nature" data-ja="2022年 — 自然">2022年 — 自然</span>
+      </figcaption>
+    </figure>
+
+    <figure class="work">
+      <div class="work-media">
+        <img src="https://picsum.photos/id/1062/1200/1500" alt="Architectural detail" loading="lazy">
+      </div>
+      <figcaption>
+        <span class="work-no">No. 06</span>
+        <span class="work-title" data-en="Straight Lines" data-ja="直線">直線</span>
+        <span class="work-meta" data-en="2022 — Architecture" data-ja="2022年 — 建築">2022年 — 建築</span>
+      </figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<!-- ===== プロフィール ===== -->
+<section class="about" id="about">
+  <div class="about-media">
+    <img src="https://picsum.photos/id/1027/900/1100" alt="Portrait of the photographer" loading="lazy">
+  </div>
+  <div class="about-text">
+    <span class="section-num">02</span>
+    <h2 data-en="About" data-ja="プロフィール">プロフィール</h2>
+    <p data-en="I am a photographer based in Tokyo, working mainly in landscape and portrait photography. My work is an attempt to notice what is easily overlooked — the quality of light on a quiet afternoon, the space between one moment and the next."
+       data-ja="東京を拠点に、風景とポートレートを中心に撮影している写真家です。見過ごされがちなもの——静かな午後の光の質感、ひとつの瞬間と次の瞬間のあわい——に目を向けることを大切にしています。">
+      東京を拠点に、風景とポートレートを中心に撮影している写真家です。見過ごされがちなもの——静かな午後の光の質感、ひとつの瞬間と次の瞬間のあわい——に目を向けることを大切にしています。
+    </p>
+    <p data-en="Available for editorial, portrait, and personal commission work."
+       data-ja="雑誌掲載・ポートレート撮影・個人からのご依頼を承っております。">
+      雑誌掲載・ポートレート撮影・個人からのご依頼を承っております。
+    </p>
+  </div>
+</section>
+
+<!-- ===== 連絡先 / フッター ===== -->
+<footer class="contact" id="contact">
+  <span class="section-num">03</span>
+  <h2 data-en="Contact" data-ja="連絡先">連絡先</h2>
+  <a class="contact-email" href="mailto:hello@example.com">hello@example.com</a>
+  <div class="social-links">
+    <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://twitter.com/" target="_blank" rel="noopener">X (Twitter)</a>
+  </div>
+  <p class="copyright">&copy; 2026 Miyabi Shimura. <span data-en="All rights reserved." data-ja="All rights reserved.">All rights reserved.</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
