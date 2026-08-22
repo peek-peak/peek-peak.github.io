@@ -468,6 +468,13 @@ summary:hover { color: var(--ink); }
   padding: 0 var(--edge);
 }
 
+.contact-note {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  max-width: 30rem;
+  margin: 0;
+}
+
 .contact-email {
   font-family: var(--font-body-en);
   font-size: 1.1rem;
@@ -478,13 +485,21 @@ summary:hover { color: var(--ink); }
 
 .social-links {
   display: flex;
-  gap: 1.5rem;
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  gap: 1.2rem;
   color: var(--ink-soft);
 }
-.social-links a:hover { color: var(--ink); }
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.social-links svg { width: 1.05rem; height: 1.05rem; }
+.social-links a:hover { color: var(--ink); border-color: var(--accent); }
 
 .copyright {
   margin: 0;
