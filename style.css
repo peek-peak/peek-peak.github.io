@@ -362,9 +362,9 @@ html[data-lang="en"] .work-title { font-family: var(--font-display-en); font-sty
 
 .artist-name {
   font-family: var(--font-body-en);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.4rem;
-  color: var(--ink);
+  color: var(--ink-soft);
   margin: -0.4rem 0 0;
 }
 
