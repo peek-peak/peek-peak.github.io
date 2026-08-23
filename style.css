@@ -242,15 +242,16 @@ html[data-lang="en"] h2 { font-family: var(--font-body-en); font-weight: 300; }
 }
 .work-statement p { margin: 0; }
 
-.work-statement-media {
-  margin-top: 0.6rem;
-  width: 100%;
-  max-width: 42rem;
+.ig-embeds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 0;
+  padding: 0 var(--edge) 3rem;
+  max-width: 64rem;
 }
-.work-statement-media img {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+.ig-embeds > blockquote {
+  flex: 1 1 320px;
 }
 
 .grid {
