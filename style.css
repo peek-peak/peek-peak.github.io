@@ -221,12 +221,25 @@ html[data-lang="en"] h2 { font-family: var(--font-body-en); font-weight: 300; }
 .about-text h2,
 .contact h2 {
   font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 /* =========================================================
    ギャラリー
    ========================================================= */
 .gallery { padding-bottom: 4rem; }
+
+.work-statement {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 var(--edge) 3rem;
+  max-width: 42rem;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+.work-statement p { margin: 0; }
 
 .grid {
   display: grid;
